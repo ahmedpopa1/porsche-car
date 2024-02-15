@@ -1,0 +1,7 @@
+before running the site on vscode you must install all if that 
+
+npm install @mui/material @emotion/react @emotion/styled
+
+npm i react-icons
+
+npm install @mui/icons-material
