@@ -1,0 +1,83 @@
+.prof {
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    transform: translate(-50%, -55%);
+    background: rgba(0, 0, 0, .9);
+    box-sizing: border-box;
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+  
+  }
+  
+  .top {
+    height: 5px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .profimg img {
+    height: 300px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+    background-color: #c27832;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .proftitle {
+  
+    display: inline-block;
+    padding: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 2px
+  }
+  
+  .desc {
+    font-size: 20px;
+    font-style: italic;
+    color: #dd9426e0;
+    margin-bottom: 50px;
+  }
+  
+  .wel {
+    font-size: x-large;
+    color: #fe9e0d;
+    font-style: inherit;
+  }
+  
+  .lol {
+    border-top: 0.6px solid rgb(255, 145, 0);
+    margin-bottom: 15px;
+  }
+  
+  .klam {
+    color: #fe9e0d;
+    font-size: larger;
+  }
+  
+  .container1 {
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    background: rgba(0, 0, 0, .9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    padding: 1rem;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 220px;
+  
+  }

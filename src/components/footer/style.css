@@ -1,0 +1,221 @@
+.footer-wrapper {
+    display: flex;
+    padding-top: 30px;
+  }
+  
+  
+  
+  .footer-logo-container {
+    max-width: 110px;
+  }
+  
+  .footer-icons {
+    margin-top: 2.5rem;
+  }
+  
+  .footer-icons svg {
+    font-size: 2rem;
+    margin-right: 1.25rem;
+    color: #fe9e0d;
+  }
+  
+  .footer-section-two {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+  }
+  
+  .footer-section-columns {
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+  }
+  
+  .footer-section-columns span {
+    margin: 0.25rem 0rem;
+    font-weight: 600;
+    color: #fe9e0d;
+    cursor: pointer;
+  }
+  
+  footer {
+  
+    background-position: center;
+    background-color: #2c2c2c;
+  
+  }
+
+  @media screen and (max-width:768px) {
+    .container1 {
+      top: 34%;
+  
+    }
+    
+  
+    .prof {
+      position: absolute;
+      top: 97%;
+      max-width: 420px;
+    }
+  
+    .home-container {
+      padding: 0;
+      text-align: center;
+      overflow: hidden;
+      width: 100% !important;
+    }
+  
+    .home-text-section {
+      width: 95%;
+      margin: 0 auto;
+    }
+  
+    .secondary-button {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+  
+    .primary-button {
+      font-size: 1rem;
+    }
+  
+    .home-bannerImage-container {
+      max-width: 600px;
+    }
+  
+  
+  
+  }
+  
+  /*////////////////////////////////////////////////////////////////////////////////*/
+  @media screen and (max-width:768px) {
+    footer {
+      text-align: center;
+    }
+  }
+  
+  /*////////////////////////////////////////////////////////////////////////////////*/
+  @media (max-width: 800px) {
+  
+    .nav-logo-container {
+      max-width: 1px;
+    }
+  
+    .navbar-links-container {
+      display: none;
+    }
+  
+    .navbar-menu-container {
+      display: flex;
+    }
+  
+    /*////////////////////////////////////////////////////////////////////////////////*/
+    .home-bannerImage-container {
+      max-width: 450px;
+    }
+  
+    .home-banner-container,
+    .about-section-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .about-section-container {
+      flex-direction: column;
+    }
+  
+    .home-image-section,
+    .about-section-image-container {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .primary-heading {
+      text-align: center;
+      max-width: 90%;
+    }
+  
+    .primary-text {
+      text-align: center;
+      max-width: 80%;
+    }
+  
+    .home-text-section,
+    .about-section-text-container {
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+    }
+  
+    .secondary-button {
+      font-size: 1rem;
+      padding: 0.8rem 2rem;
+      cursor: pointer;
+    }
+  
+    .about-buttons-container {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .primary-subheading {
+      text-align: center;
+    }
+  
+    /*////////////////////////////////////////////////////////////////////////////////*/
+    .watch-video-button {
+      margin-left: 0rem !important;
+      margin-top: 1rem;
+      font-size: 1rem !important;
+    }
+  
+    .watch-video-button svg {
+      margin-right: 0.5rem !important;
+    }
+  
+    .about-section-image-container {
+      margin-right: 0rem !important;
+    }
+  
+    .work-section-wrapper {
+      padding-top: 50px;
+      margin: 0;
+    }
+  
+    .work-section-bottom {
+      margin-top: 1rem !important;
+    }
+  
+    /*////////////////////////////////////////////////////////////////////////////////*/
+    .footer-wrapper {
+      flex-direction: column;
+    }
+  
+    .footer-section-two {
+      flex-direction: column;
+      margin-top: 2rem;
+    }
+  
+    .footer-section-columns {
+      margin: 1rem 0rem;
+    }
+  
+    /*////////////////////////////////////////////////////////////////////////////////*/
+    @media (max-width: 600px) {
+  
+      .home-bannerImage-container,
+      .about-background-image-container {
+        display: none;
+      }
+    }
+  }
+  
